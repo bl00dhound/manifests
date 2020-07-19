@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: otus-lab
-        image: bl00dhound/otus_lab:latest
+        image: bl00dhound/otus_lab:v1
         ports:
           - name: web
             containerPort: 8000
